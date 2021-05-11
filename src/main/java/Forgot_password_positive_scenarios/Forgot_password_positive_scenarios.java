@@ -65,8 +65,6 @@ public class Forgot_password_positive_scenarios extends Generic_function{
 		} catch (Exception e) {
 			e.printStackTrace();
 			takeScreenShot("forgot_positive_tc_003");
-		}
-		
+		}	
 	}
-
 }
