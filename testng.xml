@@ -2,10 +2,6 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite thread-count="1" verbose="1" name="Suite" annotations="JDK"
 	parallel="tests">
-	MHWEB-225
-	<h3 class="ds-c-alert__heading" id="alertHeader" xpath="1">Error:
-		Complete these items to log in.</h3>
-	BBUser24806
 	<test name="Test1">
 		<classes>
 			<class name="Runner_Files.Landing_welcome_positive_runner"></class>
@@ -51,7 +47,7 @@
 			<class name="Runner_Files.Services_positive_scenarios_runner"></class>
 		</classes>
 	</test> <!-- Test -->
-	<test name="Test10">
+	<test name="Test9">
 		<classes>
 			<class name="Runner_Files.Circles_negative_scenarios_runner"></class>
 		</classes>
