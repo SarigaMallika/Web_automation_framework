@@ -43,7 +43,7 @@ public class Circles_negative_scenarios extends Generic_function {
 			value = driver.findElement(By.xpath(OR_reader("Object_Locator", "add_patner_page_title"))).isDisplayed();
 			Assert.assertEquals(true,value);
 			Assert.assertEquals(driver.findElement(By.xpath(OR_reader("Object_Locator","add_patner_proceed_button"))).isEnabled(),true);
-		} catch (IOException e) {
+		} catch (Exception e) {
 			e.getMessage();
 			takeScreenShot("circle_negative_tc_001");
 		}
