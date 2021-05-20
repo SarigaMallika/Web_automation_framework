@@ -33,14 +33,12 @@
 	</test> <!-- Test -->
 	<test name="Test6">
 		<classes>
-			<class
-				name="Runner_Files.Forgot_password_negative_scenarios_runner"></class>
+			<class name="Runner_Files.Forgot_password_negative_scenarios_runner"></class>
 		</classes>
 	</test> <!-- Test -->
 	<test name="Test7">
 		<classes>
-			<class
-				name="Runner_Files.Forgot_password_positive_scenarios_runner"></class>
+			<class name="Runner_Files.Forgot_password_positive_scenarios_runner"></class>
 		</classes>
 	</test> <!-- Test -->
 	<test name="Test8">
