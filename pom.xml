@@ -89,9 +89,9 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.8.1</version>
 				<configuration>
-					<executable>c:\Program Files (x86)\Java\jdk1.8.0_291\bin\javac.exe</executable>
-					<source>1.8</source>
-					<target>1.8</target>
+					<executable>C:\Program Files\Java\jdk-11.0.11\bin\javac.exe</executable>
+					<source>11</source>
+					<target>11</target>
 					<fork>true</fork>
 					<compilerArgs>
 						<arg>-J--add-opens=jdk.compiler/com.sun.tools.javac.code=ALL-UNNAMED</arg>
